@@ -104,16 +104,16 @@
     <link name="caster_wheel">
         <visual>
             <geometry>
-                <sphere radius="0.04"/>
+                <sphere radius="0.05"/>
             </geometry>
             <material name="black" />                
         </visual>
          <collision>
             <geometry>
-                <sphere radius="0.04"/>
+                <sphere radius="0.05"/>
             </geometry>            
         </collision>    
-        <xacro:inertial_sphere mass="0.1" radius="0.04">
+        <xacro:inertial_sphere mass="0.1" radius="0.05">
             <origin xyz="0 0 0" rpy="0 0 0"/>
         </xacro:inertial_sphere>
     </link>
